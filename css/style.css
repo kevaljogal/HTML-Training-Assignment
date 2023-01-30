@@ -1,104 +1,323 @@
-body{
-    display: flex;
-    align-items: center;
-    height: 780px;
-    background-color: #FAFAFA;
+
+
+@media only screen and (min-width:360px) and (max-width:1000px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        background-color: #FAFAFA;
+    }
+    .container-fluid{
+        /* background-color: #C8242F; */
+        width: 100%;
+        height: auto;      
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;  
+    }
+    .img{
+        display: flex;
+        height: 25%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .rounded-circle{
+        border: 5px solid #ffffff;
+        border-radius: 50%;
+        height: 50%;
+        width: 50%;
+    }
+    .login {
+        /* background-color: #C8242F; */
+        height: 50%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .img2{
+        width:35%;
+        height:25%;
+    }
+    .div1{
+        height: 10%;
+        width: 100%;
+        margin-bottom: 16px;
+        letter-spacing: 0px;
+        font: normal normal 300 40px/47px Roboto;
+        font-size: 30px;
+    }
+    .div2{
+        font: normal normal normal 25px/33px Roboto;
+        align-items: left;
+        height: 5%;
+        font-size: 25px;
+        margin-top: 16px;
+        margin-bottom: 11px;
+    }
+    input{
+        font-size: 15px;
+        height: 35px;
+        width: 100%;
+    }
+    #name{
+        margin-top: 5px;
+        margin-bottom: 7px;
+    }
+    #password{
+        margin-top: 7px;
+        margin-bottom: 10px;
+    }
+    .div4{
+        display: flex;   
+    }
+    .btn{
+        height: 35px;
+        width: 100px;
+        font-size: 18px;
+        background-color: #C8242F;
+        border: 1px #C8242F;
+        border-radius: 25px;
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 40px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: 15px;
+        align-items: right;
+        margin-top: 11px;
+        margin-left: 40px;
+    }
+    a{
+        text-decoration: none;
+    }
+    p a{
+        color: #ADADAD;
+    }
+    .div3{
+        color: #ADADAD;
+        margin-top: 5px;
+    }
+    span a{
+        color: #C8242F;
+    }
+    
 }
-.container{
-    border:2px solid rgb(190, 189, 189);
-    width: 100%;
-    height: 720px;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
+@media screen and (min-width:1001px) and (max-width:1440px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        background-color: #FAFAFA;
+    }
+    .container-fluid{
+        /* background-color: #C8242F; */
+        width: 100%;
+        height: 720px;      
+        display: flex;
+        /* justify-content: center;   */
+        align-items: center;
+    }
+    .img{
+        /* background-color: aqua; */
+        display: flex;
+        height: auto;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .rounded-circle{
+        border: 10px solid #ffffff;
+        border-radius: 50%;
+        height: 50%;
+        width: 50%;
+    }
+    .login {
+        /* background-color: #C8242F; */
+        height: auto;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .img2{
+        width:50%;
+        height:25%;
+    }
+    .div1{
+        height: 10%;
+        width: 100%;
+        margin-bottom: 16px;
+        letter-spacing: 0px;
+        font: normal normal 300 40px/47px Roboto;
+        font-size: 30px;
+    }
+    .div2{
+        font: normal normal normal 25px/33px Roboto;
+        align-items: left;
+        height: 5%;
+        font-size: 25px;
+        margin-top: 16px;
+        margin-bottom: 11px;
+    }
+    input{
+        font-size: 15px;
+        height: 35px;
+        width: 100%;
+    }
+    #name{
+        margin-top: 5px;
+        margin-bottom: 7px;
+    }
+    #password{
+        margin-top: 7px;
+        margin-bottom: 10px;
+    }
+    .div4{
+        display: flex;   
+    }
+    .btn{
+        height: 35px;
+        width: 100px;
+        font-size: 18px;
+        background-color: #C8242F;
+        border: 1px #C8242F;
+        border-radius: 25px;
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 40px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: 15px;
+        align-items: right;
+        margin-top: 11px;
+        margin-left: 40px;
+    }
+    a{
+        text-decoration: none;
+    }
+    p a{
+        color: #ADADAD;
+    }
+    .div3{
+        color: #ADADAD;
+        margin-top: 5px;
+    }
+    span a{
+        color: #C8242F;
+    }
+    
 }
-.img{
-    display: flex;
-    height: 576px;
-    width: 5706x;
-    align-items: center;
-    justify-content: center;
-    margin-right: 82px;
-}
-.main{
-    border: 14px solid #ffffff;
-    border-radius: 50%;
-}
-.login{
-    height: 576px;
-    width: 500px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 82px;
-}
-.img2{
-    margin-bottom: 10px;
-}
-.div1{
-    height: 100px;
-    width: 500px;
-    margin-top: 10px;
-    margin-bottom: 16px;
-    letter-spacing: 0px;
-    font: normal normal 300 40px/47px Roboto;
-}
-span{
-    color:#C8242F;
-    font-weight: bold;
-}
-.div2{
-    font: normal normal normal 25px/33px Roboto;
-    align-items: left;
-    font-size: 25px;
-    margin-top: 16px;
-    margin-bottom: 11px;
-}
-input{
-    font-size: 15px;
-    height: 49px;
-    width: 429px;
-    padding-left: 15px;
-}
-#name{
-    margin-top: 11px;
-    margin-bottom: 14px;
-}
-#password{
-    margin-top: 14px;
-    margin-bottom: 20px;
-}
-a{
-    text-decoration: none;
-}
-p a{
-    color: #ADADAD;
-}
-.div4{
-    display: flex;   
-}
-.btn{
-    height: 45px;
-    width: 138px;
-    font-size: 18px;
-    background-color: #C8242F;
-    border: 1px #C8242F;
-    border-radius: 25px;
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 85px;
-    margin-bottom: 11px;
-}
-p{
-    font-size: 15px;
-    align-items: right;
-    margin-top: 22px;
-    margin-left: 85px;
-}
-.div3{
-    color: #ADADAD;
-    margin-top: 11px;
-}
-span a{
-    color: #C8242F;
+@media screen and (min-width:1441px){
+    body{
+        display: flex;
+        align-items: center;
+        height: auto;
+        background-color: #FAFAFA;
+    }
+    .container-fluid{
+        border:2px solid rgb(190, 189, 189);
+        width: 100%;
+        height: 720px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+    .rounded-circle{
+        border: 14px solid #ffffff;
+    }
+    .img{
+        display: flex;
+        height: 576px;
+        width: 5706x;
+        align-items: center;
+        justify-content: center;
+        margin-right: 82px;
+    }
+    .main{
+        border: 14px solid #ffffff;
+        border-radius: 50%;
+    }
+    .login{
+        height: 576px;
+        width: 500px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 82px;
+    }
+    .img2{
+        margin-bottom: 10px;
+    }
+    .div1{
+        height: 100px;
+        width: 500px;
+        margin-top: 10px;
+        margin-bottom: 16px;
+        letter-spacing: 0px;
+        font: normal normal 300 40px/47px Roboto;
+    }
+    span{
+        color:#C8242F;
+        font-weight: bold;
+    }
+    .div2{
+        font: normal normal normal 25px/33px Roboto;
+        align-items: left;
+        font-size: 25px;
+        margin-top: 16px;
+        margin-bottom: 11px;
+    }
+    input{
+        font-size: 15px;
+        height: 49px;
+        width: 429px;
+        padding-left: 15px;
+    }
+    #name{
+        margin-top: 11px;
+        margin-bottom: 14px;
+    }
+    #password{
+        margin-top: 14px;
+        margin-bottom: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    p a{
+        color: #ADADAD;
+    }
+    .div4{
+        display: flex;   
+    }
+    .btn{
+        height: 45px;
+        width: 138px;
+        font-size: 18px;
+        background-color: #C8242F;
+        border: 1px #C8242F;
+        border-radius: 25px;
+        display: inline-block;
+        margin-top: 20px;
+        margin-right: 85px;
+        margin-bottom: 11px;
+    }
+    p{
+        font-size: 15px;
+        align-items: right;
+        margin-top: 22px;
+        margin-left: 85px;
+    }
+    .div3{
+        color: #ADADAD;
+        margin-top: 11px;
+    }
+    span a{
+        color: #C8242F;
+    }
 }
 

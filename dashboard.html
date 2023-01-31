@@ -15,85 +15,86 @@
     <div class="dashnoard">
         <nav class="navbar1">
             <div class="logo">
-                <img src="./images/menu-bar.svg" alt="logo" id="dashboard-menu-logo">
-                <img src="./images/logo.svg" alt="logo" id="dashboard-web-logo">
+                <button id="h" onclick= "myFunction()">
+                <img src="images/menu-bar.svg" alt="logo" id="dashboard-menu-logo"></button>
+                <img src="images/logo.svg" alt="logo" id="dashboard-web-logo">
             </div>
             <div class="search">
-                <img src="./images/search-icon.svg" alt="" id="dashboard-search1-icon">
-                <p>Search</p>
+                <img src="images/search-icon.svg" alt="" id="dashboard-search1-icon">
+                <input type="text" id="search1" placeholder="search">
             </div>
             <div class="user">
-                <img src="./images/notification-icon.svg" alt="" id="dashboard-notification-icon">
-                <img src="./images/profile.png" alt="" id="dashboard-profile-icon">
+                <img src="images/notification-icon.svg" alt="" id="dashboard-notification-icon">
+                <img src="images/profile.png" alt="" id="dashboard-profile-icon">
                 <p>John Doe</p>
-                <img src="./images/select-downward.svg" alt="" id="dashboard-select-downward">
+                <img src="images/select-downward.svg" alt="" id="dashboard-select-downward">
             </div>
         </nav>
         <div id="content">
-            <div class="sidebar">
+            <div class="sidebar" id="h2">
                 <div class="dashboard-active-tab">
-                    <img src="./images/dashboard-active.svg" alt="" id="dashboard-active">
-                    <div>Dashboard</div>
+                    <img src="images/dashboard-active.svg" alt="" class="imgicon">
+                    <span>Dashboard</span>
                 </div>
-                <div class="sidebar-detail">
-                    <img src="./images/graph-default.svg" alt="" id="graph-default">
-                    <div>Analysis</div>
+                <div class="sdetail">
+                    <img src="images/graph-default.svg" alt="" class="imgicon">
+                    <span>Analysis</span>
                 </div>
-                <div class="sidebar-detail">
-                    <img src="./images/inbox-default.svg" alt="" id="inbox-default">
-                    <div>Inbox</div>
+                <div class="sdetail">
+                    <img src="images/inbox-default.svg" alt="" class="imgicon">
+                    <span>Inbox</span>
                 </div>
-                <div class="sidebar-detail">
-                    <img src="./images/clock-default.svg" alt="" id="clock-default">
-                    <div>History</div>
+                <div class="sdetail">
+                    <img src="images/clock-default.svg" alt="" class="imgicon">
+                    <span>History</span>
                 </div>
-                <div class="sidebar-detail">
-                    <img src="./images/user-default.svg" alt="" id="user-default">
-                    <div>Users</div>
+                <div class="sdetail">
+                    <img src="images/user-default.svg" alt=""class="imgicon">
+                    <span>Users</span>
                 </div>
-                <div class="sidebar-detail">
-                    <img src="./images/maintenance-default.svg" alt="" id="maintenance-default">
-                    <div>Maintenance</div>
+                <div class="sdetail">
+                    <img src="images/maintenance-default.svg" alt="" class="imgicon">
+                    <span>Maintenance</span>
                 </div>
-                <div class="sidebar-detail">
-                    <img src="./images/setting-default.svg" alt="" id="setting-default">
-                    <div>Setting</div>
+                <div class="sdetail">
+                    <img src="images/setting-default.svg" alt="" class="imgicon">
+                    <span>Setting</span>
                 </div>
             </div>
             <div class="details">
                 <div class="tital">
                     Dashboard
                 </div>
-                <div class="number">
-                    <div class="product1">
+                <div class="number row">
+                    <div class="product1 col">
                         <img src="images/star.svg" alt="error" class="img1">
                         <div class="name">
                             <p id="name1">23,456</p>
                             <p id="name2">New Products</p>
                         </div>
                     </div>
-                    <div class="product2">
+                    <div class="product2 col">
                         <img src="images/new-product.svg" alt="error" class="img1">
                         <div class="name">
                             <p id="name1">2345</p>
                             <p id="name2">Added Products</p>
                         </div>
                     </div>
-                    <div class="product2">
+                    <div class="product2 col">
                         <img src="images/total-product.svg" alt="error" class="img1">
                         <div class="name">
                             <p id="name1">32,456</p>
                             <p id="name2">Total Products</p>
                         </div>
                     </div>
-                    <div class="product2">
+                    <div class="product2 col">
                         <img src="images/dollar-filled.svg" alt="error" class="img1">
                         <div class="name">
                             <p id="name1">5678</p>
                             <p id="name2">Today's Sell</p>
                         </div>
                     </div>
-                    <div class="product3">
+                    <div class="product3 col">
                         <img src="images/money-bag.svg" alt="error" class="img1">
                         <div class="name">
                             <p id="name1">33,5342</p>
@@ -132,110 +133,113 @@
 
                     </div>
                 </div>
-                <div class="tab">
+                <div class="tab container-fluid">
                    <div class="tab1">
                     <p id="t1">Invoices</p>
                     <p id="t2">View All</p>
                    </div>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>INVOICE</th>
-                                <th>COMPANY NAME</th>
-                                <th>EMAIL</th>
-                                <th>DUE DATE</th>
-                                <th>STATUS</th>
-                                <th>AMOUNT</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>651535</td>
-                                <td>Public Adjusting Firm</td>
-                                <td>georgia.young@example.com</td>
-                                <td>24 May,2020</td>
-                                <td><button type="button" class="btn btn-outline-success">paid</button></td>
-                                <td>$47,800</td>
-                            </tr>
-                            <tr>
-                                <td>558612</td>
-                                <td>Other</td>
-                                <td>jessica.hanson@example.com</td>
-                                <td>24 May,2020</td>
-                                <td><button type="button" class="btn btn-outline-success">paid</button></td>
-                                
-                                <td>$98,000</td>
-                            </tr>
-                            <tr>
-                                <td>558612</td>
-                                <td>Vendor</td>
-                                <td>alma.lawson@example.com</td>
-                                <td>8 sep,2020</td>
-                                <td><button type="button" class="btn btn-outline-success">paid</button></td>
-                                
-                                <td>$20,900</td>
-                            </tr>
-                            <tr>
-                                <td>558612</td>
-                                <td>Property Management Company</td>
-                                <td>kenzi.lawson@example.com</td>
-                                <td>22 oct,2020</td>
-                                <td><button type="button" class="btn btn-outline-success">paid</button></td>
-                                
-                                <td>$10,570</td>
-                            </tr>
-                            <tr>
-                                <td>651535</td>
-                                <td>Subcontractor Company</td>
-                                <td>jacson.graham@example.com</td>
-                                <td>1 Feb,2020</td>
-                                <td><button type="button" class="btn btn-outline-danger">Failed</button></td>
-                                <td>$10,200</td>
-                            </tr>
-                            <tr>
-                                <td>653518</td>
-                                <td>Mortgage Company</td>
-                                <td>felicia.reid@example.com</td>
-                                <td>22 Oct,2020</td>
-                                <td><button type="button" class="btn btn-outline-secondary">pending</button></td>
-                                <td>$12,600</td>
-                            </tr>
-                            <tr>
-                                <td>487441</td>
-                                <td>TPA</td>
-                                <td>dolores.chambers@example.com</td>
-                                <td>21 Sep,2020</td>
-                                <td><button type="button" class="btn btn-outline-success">paid</button></td>
-                                
-                                <td>$11,170</td>
-                            </tr>
-                            <tr>
-                                <td>267400</td>
-                                <td>Fire Department</td>
-                                <td>nevaeh.simmons@example.com</td>
-                                <td>17 Oct,2020</td>
-                                <td><button type="button" class="btn btn-outline-danger">Failed</button></td>
-                                
-                                <td>$28,000</td>
-                            </tr>
-                            <tr>
-                                <td>449003</td>
-                                <td>Insurance Carrier</td>
-                                <td>curtis.weaver@example.com</td>
-                                <td>21 Sep,2020</td>
-                                <td><button type="button" class="btn btn-outline-success">paid</button></td>
-                                
-                                <td>$10,000</td>
-                            </tr>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>INVOICE</th>
+                                    <th>COMPANY NAME</th>
+                                    <th>EMAIL</th>
+                                    <th>DUE DATE</th>
+                                    <th>STATUS</th>
+                                    <th>AMOUNT</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>651535</td>
+                                    <td>Public Adjusting Firm</td>
+                                    <td>georgia.young@example.com</td>
+                                    <td>24 May,2020</td>
+                                    <td><button type="button" class="btn btn-outline-success">paid</button></td>
+                                    <td>$47,800</td>
+                                </tr>
+                                <tr>
+                                    <td>558612</td>
+                                    <td>Other</td>
+                                    <td>jessica.hanson@example.com</td>
+                                    <td>24 May,2020</td>
+                                    <td><button type="button" class="btn btn-outline-success">paid</button></td>
+                                    
+                                    <td>$98,000</td>
+                                </tr>
+                                <tr>
+                                    <td>558612</td>
+                                    <td>Vendor</td>
+                                    <td>alma.lawson@example.com</td>
+                                    <td>8 sep,2020</td>
+                                    <td><button type="button" class="btn btn-outline-success">paid</button></td>
+                                    
+                                    <td>$20,900</td>
+                                </tr>
+                                <tr>
+                                    <td>558612</td>
+                                    <td>Property Management Company</td>
+                                    <td>kenzi.lawson@example.com</td>
+                                    <td>22 oct,2020</td>
+                                    <td><button type="button" class="btn btn-outline-success">paid</button></td>
+                                    
+                                    <td>$10,570</td>
+                                </tr>
+                                <tr>
+                                    <td>651535</td>
+                                    <td>Subcontractor Company</td>
+                                    <td>jacson.graham@example.com</td>
+                                    <td>1 Feb,2020</td>
+                                    <td><button type="button" class="btn btn-outline-danger">Failed</button></td>
+                                    <td>$10,200</td>
+                                </tr>
+                                <tr>
+                                    <td>653518</td>
+                                    <td>Mortgage Company</td>
+                                    <td>felicia.reid@example.com</td>
+                                    <td>22 Oct,2020</td>
+                                    <td><button type="button" class="btn btn-outline-secondary">pending</button></td>
+                                    <td>$12,600</td>
+                                </tr>
+                                <tr>
+                                    <td>487441</td>
+                                    <td>TPA</td>
+                                    <td>dolores.chambers@example.com</td>
+                                    <td>21 Sep,2020</td>
+                                    <td><button type="button" class="btn btn-outline-success">paid</button></td>
+                                    
+                                    <td>$11,170</td>
+                                </tr>
+                                <tr>
+                                    <td>267400</td>
+                                    <td>Fire Department</td>
+                                    <td>nevaeh.simmons@example.com</td>
+                                    <td>17 Oct,2020</td>
+                                    <td><button type="button" class="btn btn-outline-danger">Failed</button></td>
+                                    
+                                    <td>$28,000</td>
+                                </tr>
+                                <tr>
+                                    <td>449003</td>
+                                    <td>Insurance Carrier</td>
+                                    <td>curtis.weaver@example.com</td>
+                                    <td>21 Sep,2020</td>
+                                    <td><button type="button" class="btn btn-outline-success">paid</button></td>
+                                    
+                                    <td>$10,000</td>
+                                </tr>
+    
+                            </tbody>
+                        </table>
+                    </div>
+                </div> 
+             </div>
 
-                        </tbody>
-                    </table>
-                </div>
-            </div>
         </div>
 
     </div>
-
+    <script src="js/j1.js"></script>
 
 </body>
 

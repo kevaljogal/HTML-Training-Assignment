@@ -12,188 +12,193 @@
 </head>
 
 <body>
-    <div class="dashnoard">
-        <nav class="navbar1">
-            <div class="logo">
-                <img src="images/menu-bar.svg" alt="logo" id="dashboard-menu-logo">
-                <img src="./images/logo.svg" alt="logo" id="dashboard-web-logo">
+    <nav class="navbar1">
+        <div class="logo">
+            <button id="h" onclick="myFunction()">
+                <img src="images/menu-bar.svg" alt="logo" id="dashboard-menu-logo"></button>
+            <img src="images/logo.svg" alt="logo" id="dashboard-web-logo">
+        </div>
+        <div class="search">
+            <img src="images/search-icon.svg" alt="" id="dashboard-search1-icon">
+            <input type="text" id="search1" placeholder="search">
+        </div>
+        <div class="user">
+            <img src="images/notification-icon.svg" alt="" id="dashboard-notification-icon">
+            <img src="images/profile.png" alt="" id="dashboard-profile-icon">
+            <p>John Doe</p>
+            <img src="images/select-downward.svg" alt="" id="dashboard-select-downward">
+        </div>
+    </nav>
+    <div id="content">
+        <div class="sidebar" id="h2">
+            <div class="dashboard-active-tab">
+                <img src="images/dashboard-active.svg" alt="" class="imgicon">
+                <span>Dashboard</span>
             </div>
-            <div class="search">
-                <img src="./images/search-icon.svg" alt="" id="dashboard-search1-icon">
-                <p>Search</p>
+            <div class="sdetail">
+                <img src="images/graph-default.svg" alt="" class="imgicon">
+                <span>Analysis</span>
             </div>
-            <div class="user">
-                <img src="./images/notification-icon.svg" alt="" id="dashboard-notification-icon">
-                <img src="./images/profile.png" alt="" id="dashboard-profile-icon">
-                <p>John Doe</p>
-                <img src="./images/select-downward.svg" alt="" id="dashboard-select-downward">
+            <div class="sdetail">
+                <img src="images/inbox-default.svg" alt="" class="imgicon">
+                <span>Inbox</span>
             </div>
-        </nav>
-        <div id="content">
-            <div class="sidebar">
-                <div class="dashboard-active-tab">
-                    <img src="./images/dashboard-active.svg" alt="" id="dashboard-active">
-                    <div>Dashboard</div>
-                </div>
-                <div class="sidebar-detail">
-                    <img src="./images/graph-default.svg" alt="" id="graph-default">
-                    <div>Analysis</div>
-                </div>
-                <div class="sidebar-detail">
-                    <img src="./images/inbox-default.svg" alt="" id="inbox-default">
-                    <div>Inbox</div>
-                </div>
-                <div class="sidebar-detail">
-                    <img src="./images/clock-default.svg" alt="" id="clock-default">
-                    <div>History</div>
-                </div>
-                <div class="sidebar-detail">
-                    <img src="./images/user-default.svg" alt="" id="user-default">
-                    <div>Users</div>
-                </div>
-                <div class="sidebar-detail">
-                    <img src="./images/maintenance-default.svg" alt="" id="maintenance-default">
-                    <div>Maintenance</div>
-                </div>
-                <div class="sidebar-detail">
-                    <img src="./images/setting-default.svg" alt="" id="setting-default">
-                    <div>Setting</div>
-                </div>
+            <div class="sdetail">
+                <img src="images/clock-default.svg" alt="" class="imgicon">
+                <span>History</span>
             </div>
+            <div class="sdetail">
+                <img src="images/user-default.svg" alt=""class="imgicon">
+                <span>Users</span>
+            </div>
+            <div class="sdetail">
+                <img src="images/maintenance-default.svg" alt="" class="imgicon">
+                <span>Maintenance</span>
+            </div>
+            <div class="sdetail">
+                <img src="images/setting-default.svg" alt="" class="imgicon">
+                <span>Setting</span>
+            </div>
+        </div>
 
-            <div class="form">
-                <p id="f1">Analysis</p>
-                <div class="form1">
-                    <div class="form2">
-                        <p>One Column</p>
-                        <form action="backend.php">
-                            <input class="i1" type="text" placeholder="Name">
-                            <select class="i1">
-                                <option>Dropdown</option>
-                                <option>Dropdown</option>
-                                <option>Dropdown</option>
-                            </select>
-                            <input class="i2" type="textarea" placeholder="Multiple line">
-                        </form>
-                    </div>
-                    <div class="form3">
-                        <p>Two Column</p>
-                        <form>
-                            <div class="row">
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Name">
-                                </div>
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="User name">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Password">
-                                </div>
-                                <div class="col">
-                                    <select class="i3">
-                                        <option>Dropdown</option>
-                                        <option>Dropdown</option>
-                                        <option>Dropdown</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="form4">
-                        <p>Three Column</p>
+        <div class="form container-fluid">
+            <p id="f1">Analysis</p>
+            <div class="form1">
+                <div class="form2 form-group">
+                    <p>One Column</p>
+                    <form action="backend.php">
+                        <div class="form-group">
+                        <input class="i1" type="text" placeholder="Name">
+                        </div>
+                        <select class="i1">
+                            <option>Dropdown</option>
+                            <option>Dropdown</option>
+                            <option>Dropdown</option>
+                        </select>
+                        <input class="i2" type="textarea" placeholder="Multiple line">
+                    </form>
+                </div>
+                <div class="form3">
+                    <p>Two Column</p>
+                    <form>
                         <div class="row">
                             <div class="col">
                                 <input type="text" class="form-control" placeholder="Name">
                             </div>
                             <div class="col">
                                 <input type="text" class="form-control" placeholder="User name">
-                            </div>
-                            <div class="col">
-                                <fieldset disabled>
-                                    <div class="form-group">
-                                        <input type="text" id="disabledTextInput" class="form-control"
-                                            placeholder="Disabled input">
-                                    </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="form5">
-                        <p>Four Column</p>
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Ui designer">
+                                <input type="text" class="form-control" placeholder="Password">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="User name">
-                            </div>
-                            <div class="col">
-                                <select class="i4">
-                                    <option>Select</option>
+                                <select class="i3">
+                                    <option>Dropdown</option>
                                     <option>Dropdown</option>
                                     <option>Dropdown</option>
                                 </select>
                             </div>
                         </div>
-                    </div>
-                    <div class="form6">
-                        <p>Other Design Elements</p>
-                        <p id="f5">File upload</p>
-                        <div class="i5"><button type="button" class="btn btn-outline-danger">
-                                <img src="images/cloud-upload-icon.svg" alt="Error">
-                                Upload</button>
-                            <p id="f2">No item Selected</p>
+                    </form>
+                </div>
+                <div class="form4">
+                    <p>Three Column</p>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Name">
                         </div>
-                        <p id="f3">Radio Button</p>
-                        <input type="radio" name="options" id="option2" class="b1" autocomplete="off"> Option 1
-                        <input type="radio" name="options" id="option3" class="b1" autocomplete="off"> Option 2
-                        <p id="f4">Check Box</p>
-                        <input type="checkbox" class="b1" checked autocomplete="off"> Option 1
-                        <input type="checkbox" class="b1" checked autocomplete="off"> Option 2
-                        <p id="f4">Snack Bar</p>
-                        <div class="row">
-                            <div class="col">
-                                <button type="button" class="btn btn-outline-danger b2">
-                                    <img class="i6" src="images/error-icon.svg" alt="error">
-                                    This is an error message</button>
-                            </div>
-                            <div class="col">
-                                <button type="button" class="btn btn-outline-info b2">
-                                    <img class="i6" src="images/info-icon.svg" alt="error">
-                                    This is an information message</button>
-                            </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="User name">
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <button type="button" class="btn btn-outline-warning b2">
-                                    <img class="i6" src="images/warning-icon.svg" alt="error">
-                                    This is an warning message</button>
-                            </div>
-                            <div class="col">
-                                <button type="button" class="btn btn-outline-success b2">
-                                    <img class="i6" src="images/success-icon.svg" alt="error">
-                                    This is an success message</button>
-                            </div>
+                        <div class="col">
+                            <fieldset disabled>
+                                <div class="form-group">
+                                    <input type="text" id="disabledTextInput" class="form-control"
+                                        placeholder="Disabled input">
+                                </div>
                         </div>
-                        <p id="f6">Call to Action</p>
-                        <button type="button" class="btn btn-danger">Primary</button>
-                        <button type="button" class="btn btn-outline-danger b3">Secondary</button>
-                        <p id="f7">Tabs</p>
-                        <p><span id="s1"> Tab1 </span> <span id="s2"> Tab2 </span> <span id="s3"> Tab3 </span></p>
-                        <hr>
-                        <p id="f8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only five
-                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                            It was popularised in the 1960s with the release of Letraset sheets containing</p>
                     </div>
                 </div>
-
+                <div class="form5">
+                    <p>Four Column</p>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Ui designer">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="User name">
+                        </div>
+                        <div class="col">
+                            <select class="i4">
+                                <option>Select</option>
+                                <option>Dropdown</option>
+                                <option>Dropdown</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form6">
+                    <p>Other Design Elements</p>
+                    <p id="f5">File upload</p>
+                    <div class="i5"><button type="button" class="btn btn-outline-danger">
+                            <img src="images/cloud-upload-icon.svg" alt="Error">
+                            Upload</button>
+                        <p id="f2">No item Selected</p>
+                    </div>
+                    <p id="f3">Radio Button</p>
+                    <input type="radio" name="options" id="option2" class="b1" autocomplete="off"> Option 1
+                    <input type="radio" name="options" id="option3" class="b1" autocomplete="off"> Option 2
+                    <p id="f4">Check Box</p>
+                    <input type="checkbox" class="b1" checked autocomplete="off"> Option 1
+                    <input type="checkbox" class="b1" checked autocomplete="off"> Option 2
+                    <p id="f4">Snack Bar</p>
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-danger b2">
+                                <img class="i6" src="images/error-icon.svg" alt="error">
+                                This is an error message</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-info b2">
+                                <img class="i6" src="images/info-icon.svg" alt="error">
+                                This is an information message</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-warning b2">
+                                <img class="i6" src="images/warning-icon.svg" alt="error">
+                                This is an warning message</button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-success b2">
+                                <img class="i6" src="images/success-icon.svg" alt="error">
+                                This is an success message</button>
+                        </div>
+                    </div>
+                    <p id="f6">Call to Action</p>
+                    <button type="button" class="btn btn-danger">Primary</button>
+                    <button type="button" class="btn btn-outline-danger b3">Secondary</button>
+                    <p id="f7">Tabs</p>
+                    <p><span id="s1"> Tab1 </span> <span id="s2"> Tab2 </span> <span id="s3"> Tab3 </span></p>
+                    <hr>
+                    <p id="f8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                </div>
             </div>
+
+        </div>
+    </div>
+    <script src="js/j1.js"></script>
 </body>
 
 </html>

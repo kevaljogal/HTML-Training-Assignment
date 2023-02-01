@@ -462,6 +462,9 @@
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+    /* for innerpage */
+    margin-top: -7px;
+    margin-left: 2px;
   }
   
   .navbar1 {

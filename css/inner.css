@@ -70,14 +70,15 @@
     }
 
     .i3 {
-        height: 49px;
-        width: 555px;
+        height: 38px;
+        width: 541px;
         border-radius: 5px;
     }
 
     .i4 {
-        height: 49px;
-        width: 266px;
+        height: 36px;
+        width: 261px;
+        border-radius: 5px;
     }
 
     #f5 {
@@ -199,8 +200,8 @@
 @media only screen and (min-width:360px) and (max-width:1000px) {
     .form {
         background-color: #FAFAFA;
-        height: 1890px;
-        width: 1318px;
+        height: auto;
+        width: 100%;
     }
 
     #f1 {
@@ -217,8 +218,8 @@
     }
 
     .form1 {
-        width: 1218px;
-        height: 1749px;
+        width: 90%;
+        height: auto;
         background-color: #FFFFFF;
         margin: 11px 20px 15px 20px;
     }
@@ -231,29 +232,31 @@
         letter-spacing: 0px;
         color: #3E3E3E;
         opacity: 1;
-        margin-top: 22px;
-        margin-left: 21px;
+        margin-top: 10px;
+        margin-left: 17px;
         margin-bottom: 3px;
     }
 
     .i1 {
-        height: 49px;
-        width: 50%;
+        height: 5%px;
+        width: 80%;
         margin: 7px 14px 10px 30px;
         border-radius: 5px;
         padding-left: 8px;
         color: #ADADAD;
+        font-size: 10px;
     }
 
     .i2 {
-        height: 130px;
-        width: 1157px;
+        height: 10%;
+        width: 80%;
         margin: 7px 30px 10px 30px;
         border-radius: 5px;
         text-align: left;
         padding-left: 10px;
         padding-top: 10px;
         color: #ADADAD;
+        font-size: 10px;
     }
 
     .col {
@@ -261,20 +264,37 @@
         margin-bottom: 10px;
         margin-left: 30px;
         margin-right: 30px;
-        height: 49px;
-        width: 563px;
+        height: 5%;
+        width: 40%;
         border-radius: 5px;
+    }
+    .m1{
+        height: 5%;
+        width: 235px;
+        font-size: 10px;
     }
 
     .i3 {
-        height: 49px;
-        width: 555px;
+        height: 7%px;
+        width: 235px;
         border-radius: 5px;
+        font-size: 10px;
+    }
+    .m2{
+        height: 5%;
+        width: 120px;
+        font-size: 10px;
+    }
+    .m3{
+        height: 5%;
+        width: 120px;
+        font-size: 10px;
     }
 
     .i4 {
-        height: 49px;
-        width: 266px;
+        height: 5%;
+        width: 120px;
+        font-size: 10px;
     }
 
     #f5 {
@@ -292,29 +312,29 @@
     }
 
     .btn {
-        height: 36px;
-        width: 124px;
+        height: 30px;
+        width: 90px;
         border-radius: 50px;
-        margin-left: 30px;
+        margin-left: 25px;
+        font-size: 10px;
     }
 
     #f2 {
         color: #3E3E3E;
-        font-size: 18px;
         font: normal normal normal 15px/20px Roboto;
     }
 
     #f3 {
         color: #3E3E3E;
-        font-size: 18px;
         margin-top: 14px;
         margin-left: 29px;
         font: normal normal normal 15px/20px Roboto;
     }
 
     .b1 {
-        margin-left: 55px;
+        margin-left: 35px;
         margin-top: 4px;
+        font-size: 10px;
     }
 
     #f4 {
@@ -327,8 +347,8 @@
 
     .b2 {
         display: flex;
-        height: 44px;
-        width: 500px;
+        height: 27px;
+        width: 80%;
         border-radius: 5px;
         align-items: center;
         justify-content: left;
@@ -344,13 +364,228 @@
     }
 
     .btn-danger {
-        height: 45px;
-        width: 124px;
+        height: 31px;
+        width: 87px;
     }
 
     .b3 {
-        height: 44px;
-        width: 145px;
+        height: 31px;
+        width: 87px;
+    }
+
+    #f6 {
+        color: #3E3E3E;
+        font-size: 18px;
+        margin-top: 14px;
+        margin-left: 29px;
+        font: normal normal normal 15px/20px Roboto;
+    }
+
+    #f7 {
+        color: #3E3E3E;
+        font-size: 18px;
+        margin-top: 14px;
+        margin-left: 29px;
+        font: normal normal normal 15px/20px Roboto;
+    }
+
+    #s1 {
+        color: #C8242F;
+        font-size: 15px;
+    }
+
+    #s2 {
+        color: #ADADAD;
+        font-size: 15px;
+    }
+
+    #s3 {
+        color: #ADADAD;
+        font-size: 15px;
+    }
+
+    #f8 {
+        color: #ADADAD;
+        font-size: 15px;
+        font-weight: 100;
+        font: normal normal normal 15px/20px Roboto;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1440px) {
+    .form {
+        background-color: #FAFAFA;
+        height: auto;
+        width: 100%;
+    }
+
+    #f1 {
+        text-align: left;
+        font: normal normal medium 30px/39px Roboto;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .form1 {
+        width: 90%;
+        height: auto;
+        background-color: #FFFFFF;
+        margin: 11px 20px 15px 20px;
+    }
+
+    p {
+        text-align: left;
+        font: normal normal medium 22px/29px Roboto;
+        font-size: 18px;
+        font-weight: bolder;
+        letter-spacing: 0px;
+        color: #3E3E3E;
+        opacity: 1;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 3px;
+    }
+
+    .i1 {
+        height: 5%px;
+        width: 80%;
+        margin: 7px 14px 10px 30px;
+        border-radius: 5px;
+        padding-left: 8px;
+        color: #ADADAD;
+        font-size: 15px;
+    }
+
+    .i2 {
+        height: 10%;
+        width: 80%;
+        margin: 7px 30px 10px 30px;
+        border-radius: 5px;
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 10px;
+        color: #ADADAD;
+        font-size: 15px;
+    }
+
+    .col {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        height: 5%;
+        width: 40%;
+        border-radius: 5px;
+    }
+    .m1{
+        height: 5%;
+        width: 280px;
+        font-size: 15px;
+    }
+
+    .i3 {
+        height: 20%;
+        width: 280px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .m2{
+        height: 5%;
+        width: 170px;
+        font-size: 15px;
+    }
+    .m3{
+        height: 5%;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    .i4 {
+        height: 15%;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    #f5 {
+        color: #3E3E3E;
+        font-size: 18px;
+        margin-top: 14px;
+        margin-left: 29px;
+        font: normal normal normal 15px/20px Roboto;
+    }
+
+    .i5 {
+        display: flex;
+        align-items: center;
+        height: 29px;
+    }
+
+    .btn {
+        height: 50px;
+        width: 130px;
+        border-radius: 50px;
+        margin-left: 25px;
+        font-size: 15px;
+    }
+
+    #f2 {
+        color: #3E3E3E;
+        font: normal normal normal 15px/20px Roboto;
+    }
+
+    #f3 {
+        color: #3E3E3E;
+        margin-top: 14px;
+        margin-left: 29px;
+        font: normal normal normal 15px/20px Roboto;
+    }
+
+    .b1 {
+        margin-left: 35px;
+        margin-top: 4px;
+        font-size: 15px;
+    }
+
+    #f4 {
+        color: #3E3E3E;
+        font-size: 18px;
+        margin-top: 14px;
+        margin-left: 29px;
+        font: normal normal normal 15px/20px Roboto;
+    }
+
+    .b2 {
+        display: flex;
+        height: 27px;
+        width: 80%;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .i6 {
+        display: flex;
+        height: 25px;
+        width: 25px;
+        align-items: center;
+        justify-content: left;
+        padding-right: 10px;
+    }
+
+    .btn-danger {
+        height: 31px;
+        width: 87px;
+    }
+
+    .b3 {
+        height: 31px;
+        width: 87px;
     }
 
     #f6 {
